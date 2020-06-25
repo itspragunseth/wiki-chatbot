@@ -7,6 +7,7 @@ pip3 install nltk
 pip3 install bs4
 pip3 install kivy
 pip3 install numpy
+pip3 install sklearn
 ```
 
 Initialize chatbot with
