@@ -5,5 +5,6 @@ Initialize chatbot with
 ```
 python3 chatbot.py
 ```
+And answer ROBO with your topic and keyword in topic
 
 **Note: Have a WORKING internet connection!**
