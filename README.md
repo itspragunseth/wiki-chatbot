@@ -8,7 +8,7 @@ pip3 install bs4
 pip3 install kivy
 pip3 install numpy
 pip3 install sklearn
-```
+![Alt text](/pic1.png?raw=true)```
 
 Initialize chatbot with
 ```
