@@ -11,12 +11,13 @@ import numpy as np
 import bs4
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import warnings
 import requests
 warnings.filterwarnings('ignore')
 
 from kivy.app import App
-from kivy.uix.button import  Button
+from kivy.uix.button import Button
+from kivy.uix.label import Label
+from kivy.uix.textinput import TextInput
 from kivy.uix.textinput import TextInput
 from kivy.uix.boxlayout import BoxLayout
 
@@ -132,10 +133,8 @@ while(flag==True):
             else:
                 print("ROBO: ",end="")
                 print(response(user_response))
+                out = response(user_response)
                 sent_tokens.remove(user_response)
     else:
         flag=False
-        print("ROBO: Bye! take care..")    
-        
-        
-
+        print("ROBO: Bye! take care..")
